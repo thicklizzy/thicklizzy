@@ -1,5 +1,6 @@
 ## Hi there 👋
 
+This is the readme file for thicklizzys website.
 <!--
 **thicklizzy/thicklizzy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
