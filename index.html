@@ -5,31 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>thicklizzy</title>
-    <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <style>
+      body {
+        background-color: #000;
+        color: #fff;
+        font-family: 'Monaco', monospace;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+      }
+      header {
+        background-color: #ff0000;
+        width: 100%;
+        padding: 20px 0;
+      }
+      h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+      .image-container {
+        margin: 20px 0;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        border: 2px solid #ff0000;
+        border-radius: 8px;
+      }
+      h2 {
+        font-size: 1.8em;
+        margin: 10px 0;
+      }
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin: 20px 0;
+      }
+      .links a {
+        color: #fff;
+        background-color: #ff0000;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s, transform 0.3s;
+      }
+      .links a:hover {
+        background-color: #cc0000;
+        transform: scale(1.05);
+      }
+      footer {
+        background-color: #ff0000;
+        width: 100%;
+        padding: 10px 0;
+        font-size: 0.8em;
+        position: fixed;
+        bottom: 0;
+      }
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 2em;
+        }
+        h2 {
+          font-size: 1.5em;
+        }
+        .links a {
+          padding: 8px 16px;
+        }
+      }
+    </style>
   </head>
-  <body style="background-color:black;">
+  <body>
+    <header>
+      <h1>Welcome to the home of thicklizzy!</h1>
+    </header>
     <main>
-        <h1 style="text-align:center; font-family:monaco; color:white; background-color:red;">Welcome to the home of thicklizzy!</h1>
-       <div style="text-align:center;">
-      <img src="IMG_0075.jpeg" alt="thicklizzy" width="300" height="200">
+      <div class="image-container">
+        <img src="IMG_0075.jpeg" alt="thicklizzy" width="300" height="200">
       </div>
-      <h2 style="text-align:center; font-family:monaco; color:white;">Discover how thick this shit really gets</p>
-    <a href="https://www.instagram.com/thicklizzymusic">Instagram</a>
-    <a href="https://youtube.com/@thicklizzymusic?si=t7TLFZN6n6uI7PCP">YouTube</a>
-    <a href="https://x.com/thicklizzymusic?s=21">X</a>
-    <a href="https://thicklizzymusic.bandcamp.com">Bandcamp</a>
-    <a href="https://open.spotify.com/artist/17MjjtVPUaN3c1U7Cc8dKK?si=oGWkWRmGSDON5e2hs7PzSA">Spotify</a>
-    <a href="https://music.apple.com/us/artist/thicklizzy/1676576142">Apple Music</a>
-    <a href="https://music.amazon.com/artists/B0BY2FNC1T?ref=dm_sh_Zk6RPkExpyAHulqEGYqJzqn09">Amazon Music</a>
-    <a href="https://m.soundcloud.com/user-595791471">Soundcloud</a>
-    <a href="https://m.twitch.tv/thicklizzymusic/home">Twitch</a> 
-    <a href="https://www.deezer.com/us/artist/204912357">Deezer</a>
-    <a href="https://www.iheart.com/artist/thicklizzy-39937983/">iHeartRadio</a>
-    <a href="https://audiomack.com/thicklizzymusic">Audiomack</a>
-    <a href="https://www.dropbox.com/scl/fo/gxwfqzqo9ernc4iy243e0/ALudFeEgx1KqWSCrl6IPS5E?rlkey=l7glo6rr1ds8zmnelbbfn0sfa&st=4h54rxzm&dl=0">Free FX Sample Pack</a>
-    <p style="text-align:center; font-family:monaco; color:white; font-size:60%; background-color:red;">Contact email : joshuacombs1995@gmail.com</p>
+      <h2>Discover how thick this shit really gets</h2>
+      <div class="links">
+        <a href="https://www.instagram.com/thicklizzymusic">Instagram</a>
+        <a href="https://youtube.com/@thicklizzymusic?si=t7TLFZN6n6uI7PCP">YouTube</a>
+        <a href="https://x.com/thicklizzymusic?s=21">X</a>
+        <a href="https://thicklizzymusic.bandcamp.com">Bandcamp</a>
+        <a href="https://open.spotify.com/artist/17MjjtVPUaN3c1U7Cc8dKK?si=oGWkWRmGSDON5e2hs7PzSA">Spotify</a>
+        <a href="https://music.apple.com/us/artist/thicklizzy/1676576142">Apple Music</a>
+        <a href="https://music.amazon.com/artists/B0BY2FNC1T?ref=dm_sh_Zk6RPkExpyAHulqEGYqJzqn09">Amazon Music</a>
+        <a href="https://m.soundcloud.com/user-595791471">Soundcloud</a>
+        <a href="https://m.twitch.tv/thicklizzymusic/home">Twitch</a> 
+        <a href="https://www.deezer.com/us/artist/204912357">Deezer</a>
+        <a href="https://www.iheart.com/artist/thicklizzy-39937983/">iHeartRadio</a>
+        <a href="https://audiomack.com/thicklizzymusic">Audiomack</a>
+        <a href="https://www.dropbox.com/scl/fo/gxwfqzqo9ernc4iy243e0/ALudFeEgx1KqWSCrl6IPS5E?rlkey=l7glo6rr1ds8zmnelbbfn0sfa&st=4h54rxzm&dl=0">Free FX Sample Pack</a>
+      </div>
     </main>
-    <script src="index.js"></script>
+    <footer>
+      <p>Contact email: joshuacombs1995@gmail.com</p>
+    </footer>
   </body>
 </html>
