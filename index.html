@@ -1,36 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>thicklizzy</title>
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <style>
-      #youtube {
-  margin: 40px 0;
-}
-
-#youtube h2 {
-  color: #ff0000;
-  margin-bottom: 20px;
-}
-
-.youtube-video {
-  margin: 20px auto;
-  max-width: 90%;
-  display: flex;
-  justify-content: center;
-}
-
-.youtube-video iframe {
-  width: 100%;
-  max-width: 560px;
-  height: 315px;
-  border: 2px solid #ff0000;
-  border-radius: 8px;
-}
-
       body {
         background-color: #000;
         color: #fff;
@@ -44,28 +20,34 @@
         min-height: 100vh;
         text-align: center;
       }
+
       header {
         background-color: #ff0000;
         width: 100%;
         padding: 20px 0;
       }
+
       h1 {
         margin: 0;
         font-size: 2.5em;
       }
+
       .image-container {
         margin: 20px 0;
       }
+
       img {
         max-width: 100%;
         height: auto;
         border: 2px solid #ff0000;
         border-radius: 8px;
       }
+
       h2 {
         font-size: 1.8em;
         margin: 10px 0;
       }
+
       .links {
         display: flex;
         flex-wrap: wrap;
@@ -73,6 +55,7 @@
         gap: 15px;
         margin: 20px 0;
       }
+
       .links a {
         color: #fff;
         background-color: #ff0000;
@@ -81,10 +64,36 @@
         border-radius: 5px;
         transition: background-color 0.3s, transform 0.3s;
       }
+
       .links a:hover {
         background-color: #cc0000;
         transform: scale(1.05);
       }
+
+      #youtube {
+        margin: 40px 0;
+      }
+
+      #youtube h2 {
+        color: #ff0000;
+        margin-bottom: 20px;
+      }
+
+      .youtube-video {
+        margin: 20px auto;
+        max-width: 90%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .youtube-video iframe {
+        width: 100%;
+        max-width: 560px;
+        height: 315px;
+        border: 2px solid #ff0000;
+        border-radius: 8px;
+      }
+
       footer {
         background-color: #ff0000;
         width: 100%;
@@ -93,13 +102,16 @@
         position: fixed;
         bottom: 0;
       }
+
       @media (max-width: 600px) {
         h1 {
           font-size: 2em;
         }
+
         h2 {
           font-size: 1.5em;
         }
+
         .links a {
           padding: 8px 16px;
         }
@@ -110,11 +122,41 @@
     <header>
       <h1>Welcome to the home of thicklizzy!</h1>
     </header>
+
     <main>
       <div class="image-container">
-        <img src="IMG_0075.jpeg" alt="thicklizzy" width="300" height="200">
+        <img src="IMG_0075.jpeg" alt="thicklizzy" width="300" height="200" />
       </div>
+
       <h2>Discover how thick this shit really gets</h2>
+
+      <!-- YouTube Section -->
+      <section id="youtube">
+        <h2>Watch Our Latest Videos</h2>
+
+        <!-- Single Video -->
+        <div class="youtube-video">
+          <iframe 
+            src="https://www.youtube.com/embed/h8zGuk10Vh4" 
+            title="thicklizzy video"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <!-- Playlist (optional) -->
+        <div class="youtube-video">
+          <iframe 
+            src="https://www.youtube.com/embed/videoseries?list=RDh8zGuk10Vh4"
+            title="thicklizzy playlist"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+
       <div class="links">
         <a href="https://www.instagram.com/thicklizzymusic">Instagram</a>
         <a href="https://youtube.com/@thicklizzymusic?si=t7TLFZN6n6uI7PCP">YouTube</a>
@@ -130,22 +172,8 @@
         <a href="https://audiomack.com/thicklizzymusic">Audiomack</a>
         <a href="https://www.dropbox.com/scl/fo/gxwfqzqo9ernc4iy243e0/ALudFeEgx1KqWSCrl6IPS5E?rlkey=l7glo6rr1ds8zmnelbbfn0sfa&st=4h54rxzm&dl=0">Free FX Sample Pack</a>
       </div>
-    <section id="youtube">
-  <h2>Watch Our Latest Videos</h2>
-  
-  <!-- Embedded video -->
-  <div class="youtube-video">
-    <iframe 
-      width="560" 
-      height="315" 
-      src="https://www.youtube.com/watch?v=h8zGuk10Vh4" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      allowfullscreen>
-    </iframe>
-  </div>
     </main>
+
     <footer>
       <p>Contact email: joshuacombs1995@gmail.com or thicklizzymusic@gmail.com</p>
     </footer>
