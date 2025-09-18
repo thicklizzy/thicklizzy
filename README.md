@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-This is the readme file for thicklizzys website.
+This is the readme file for thicklizzys website.  Check it out to stay updated with everything thicklizzy!
 
 https://thicklizzy.github.io/thicklizzy/
 <!--
